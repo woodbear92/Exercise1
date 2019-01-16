@@ -29,7 +29,7 @@ When answering the questions, remember to use all the resources at your disposal
  > *It is a lock that stops more than one thread from executing at the same time. This because the interpreter is not thread-safe*
  
  ### With this in mind: What is the workaround for the GIL (Hint: it's another module)?
- > *Your answer here*
+ > *Multiprocess module*
  
  ### What does `func GOMAXPROCS(n int) int` change? 
- > *Your answer here*
+ > *GOMAXPROCS sets the maximum number of CPUs that can be executing simultaneously*
