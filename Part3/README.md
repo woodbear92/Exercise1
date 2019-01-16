@@ -6,7 +6,9 @@ To complete this exercise you will have to use git. Create one or several commit
 When answering the questions, remember to use all the resources at your disposal. Asking the internet isn't a form of "cheating", it's a way of learning.
 
  ### What is concurrency? What is parallelism? What's the difference?
- > *Your answer here*
+ > *Concurrency is when several computations are executed i the same overlapping time period, they can be computed out of order without changing the result. 
+Parallelism is when different threads/processes are running on the same or different data at the same time on multiple processors. These threads may communicate for instance about shared resources. 
+The difference is that in parallell the task are completed at the same time. Because it uses different cores/processors *
  
  ### Why have machines become increasingly multicore in the past decade?
  > *Your answer here*
