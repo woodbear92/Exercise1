@@ -15,7 +15,7 @@ The difference is that in parallell the task are completed at the same time. Bec
  
  ### What kinds of problems motivates the need for concurrent execution?
  (Or phrased differently: What problems do concurrency help in solving?)
- > *Your answer here*
+ > *Problems where different processes have to share common resources. Historically this could be multiple trains on the same railway system or transmissions over wires. *
  
  ### Does creating concurrent programs make the programmer's life easier? Harder? Maybe both?
  (Come back to this after you have worked on part 4 of this exercise)
