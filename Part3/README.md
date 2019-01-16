@@ -6,9 +6,7 @@ To complete this exercise you will have to use git. Create one or several commit
 When answering the questions, remember to use all the resources at your disposal. Asking the internet isn't a form of "cheating", it's a way of learning.
 
  ### What is concurrency? What is parallelism? What's the difference?
- > *Concurrency is when several computations are executed i the same overlapping time period, they can be computed out of order without changing the result. 
-Parallelism is when different threads/processes are running on the same or different data at the same time on multiple processors. These threads may communicate for instance about shared resources. 
-The difference is that in parallell the task are completed at the same time. Because it uses different cores/processors.*
+ > *Concurrency is when several computations are executed i the same overlapping time period, they can be computed out of order without changing the result. Parallelism is when different threads/processes are running on the same or different data at the same time on multiple processors. These threads may communicate for instance about shared resources. The difference is that in parallell the task are completed at the same time. Because it uses different cores/processors.*
  
  ### Why have machines become increasingly multicore in the past decade?
  > *The improvements in clock speed of processors has slowed. So to keep improving the processing speed of computers, we have instead moved to have multiple cores on our chips so we can run multiplie processes at the same time.*
@@ -22,13 +20,13 @@ The difference is that in parallell the task are completed at the same time. Bec
  > *Your answer here*
  
  ### What are the differences between processes, threads, green threads, and coroutines?
- > *Your answer here*
+ > *A process is a program, a thread is a subset of a process. Different within the shame process can share memory space. They are both scheduled by the OS. Green threads are threads that are scheduled by a runtime library or virtual machine instead of OS. A coroutine is like a thread, but the OS switches between threads and switch of coroutines can be controlled by the programmer*
  
  ### Which one of these do `pthread_create()` (C/POSIX), `threading.Thread()` (Python), `go` (Go) create?
- > *Your answer here*
+ > *A thread*
  
  ### How does pythons Global Interpreter Lock (GIL) influence the way a python Thread behaves?
- > *Your answer here*
+ > *It is a lock that stops more than one thread from executing at the same time. This because the interpreter is not thread-safe*
  
  ### With this in mind: What is the workaround for the GIL (Hint: it's another module)?
  > *Your answer here*
