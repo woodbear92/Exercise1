@@ -8,14 +8,14 @@ When answering the questions, remember to use all the resources at your disposal
  ### What is concurrency? What is parallelism? What's the difference?
  > *Concurrency is when several computations are executed i the same overlapping time period, they can be computed out of order without changing the result. 
 Parallelism is when different threads/processes are running on the same or different data at the same time on multiple processors. These threads may communicate for instance about shared resources. 
-The difference is that in parallell the task are completed at the same time. Because it uses different cores/processors *
+The difference is that in parallell the task are completed at the same time. Because it uses different cores/processors.*
  
  ### Why have machines become increasingly multicore in the past decade?
  > *The improvements in clock speed of processors has slowed. So to keep improving the processing speed of computers, we have instead moved to have multiple cores on our chips so we can run multiplie processes at the same time.*
  
  ### What kinds of problems motivates the need for concurrent execution?
  (Or phrased differently: What problems do concurrency help in solving?)
- > *Problems where different processes have to share common resources. Historically this could be multiple trains on the same railway system or transmissions over wires. *
+ > *Problems where different processes have to share common resources. Historically this could be multiple trains on the same railway system or transmissions over wires.*
  
  ### Does creating concurrent programs make the programmer's life easier? Harder? Maybe both?
  (Come back to this after you have worked on part 4 of this exercise)
