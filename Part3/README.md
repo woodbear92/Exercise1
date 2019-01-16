@@ -11,7 +11,7 @@ Parallelism is when different threads/processes are running on the same or diffe
 The difference is that in parallell the task are completed at the same time. Because it uses different cores/processors *
  
  ### Why have machines become increasingly multicore in the past decade?
- > *Your answer here*
+ > *The improvements in clock speed of processors has slowed. So to keep improving the processing speed of computers, we have instead moved to have multiple cores on our chips so we can run multipli processes at the same time.*
  
  ### What kinds of problems motivates the need for concurrent execution?
  (Or phrased differently: What problems do concurrency help in solving?)
