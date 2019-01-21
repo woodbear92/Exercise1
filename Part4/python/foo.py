@@ -10,22 +10,25 @@ from threading import Thread
 i = 0
 
 def incrementingFunction():
-    global i
-    # TODO: increment i 1_000_000 times
+    for j in range(1000000):
+        global i
+        i+=1
 
 def decrementingFunction():
+ for l in range(1000000):
     global i
-    # TODO: decrement i 1_000_000 times
+    i-=1
 
 
 
 def main():
-    # TODO: Something is missing here (needed to print i)
+    global i
 
     incrementing = Thread(target = incrementingFunction, args = (),)
     decrementing = Thread(target = decrementingFunction, args = (),)
     
-    # TODO: Start both threads
+    incrementing.start()
+    decrementing.start()
     
     incrementing.join()
     decrementing.join()
